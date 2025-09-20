@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Repository - 赛博朋克智能体展示</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cyber-grid"></div>
+    <div class="scan-lines"></div>
+    
+    <header class="main-header">
+        <div class="header-content">
+            <h1 class="cyber-title">
+                <span class="glitch" data-text="AGENT REPOSITORY">AGENT REPOSITORY</span>
+            </h1>
+            <p class="subtitle">赛博朋克智能体数据库 • Cyberpunk AI Agents Database</p>
+            <div class="status-bar">
+                <span class="status-item">
+                    <span class="indicator active"></span>
+                    系统状态: <span class="status-text">在线</span>
+                </span>
+                <span class="status-item">
+                    <span class="indicator"></span>
+                    连接数: <span id="agent-count">0</span>
+                </span>
+                <span class="status-item">
+                    <span class="indicator warning"></span>
+                    最后更新: <span id="last-update">--:--</span>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="controls-panel">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="active">活跃</button>
+                <button class="filter-btn" data-filter="standby">待机</button>
+                <button class="filter-btn" data-filter="maintenance">维护</button>
+            </div>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="搜索智能体..." />
+                <div class="search-glow"></div>
+            </div>
+        </div>
+
+        <div class="agents-container" id="agents-container">
+            <!-- Agent cards will be dynamically inserted here -->
+        </div>
+
+        <div class="loading-spinner" id="loading-spinner">
+            <div class="spinner-ring"></div>
+            <div class="loading-text">正在加载智能体数据...</div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Agent Repository. All rights reserved.</p>
+            <p class="tech-specs">Powered by Cyberpunk Tech Stack</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
