@@ -1,0 +1,70 @@
+{
+  "agents": [
+    {
+      "id": "001",
+      "name": "Neural Nexus",
+      "type": "AI Assistant",
+      "status": "active",
+      "description": "Advanced conversational AI with natural language processing capabilities",
+      "capabilities": ["Text Analysis", "Code Generation", "Creative Writing", "Problem Solving"],
+      "powerLevel": 95,
+      "location": "Data Center Alpha-7",
+      "lastActive": "2025-01-20T10:30:00Z"
+    },
+    {
+      "id": "002", 
+      "name": "Code Phantom",
+      "type": "Development Bot",
+      "status": "active",
+      "description": "Specialized programming assistant for multiple languages and frameworks",
+      "capabilities": ["Code Review", "Bug Detection", "Refactoring", "Documentation"],
+      "powerLevel": 88,
+      "location": "DevOps Hub-3",
+      "lastActive": "2025-01-20T09:45:00Z"
+    },
+    {
+      "id": "003",
+      "name": "Data Wraith",
+      "type": "Analytics Engine",
+      "status": "standby",
+      "description": "High-performance data processing and pattern recognition system",
+      "capabilities": ["Data Mining", "Statistical Analysis", "Predictive Modeling", "Visualization"],
+      "powerLevel": 92,
+      "location": "Analytics Cluster-1",
+      "lastActive": "2025-01-20T08:15:00Z"
+    },
+    {
+      "id": "004",
+      "name": "Cyber Guardian", 
+      "type": "Security Agent",
+      "status": "active",
+      "description": "Advanced security monitoring and threat detection system",
+      "capabilities": ["Threat Detection", "Intrusion Prevention", "Anomaly Analysis", "Risk Assessment"],
+      "powerLevel": 97,
+      "location": "Security Command Center",
+      "lastActive": "2025-01-20T10:28:00Z"
+    },
+    {
+      "id": "005",
+      "name": "Echo Protocol",
+      "type": "Communication Hub",
+      "status": "maintenance", 
+      "description": "Multi-protocol communication and translation interface",
+      "capabilities": ["Language Translation", "Protocol Conversion", "Message Routing", "Encryption"],
+      "powerLevel": 76,
+      "location": "Communication Node-9",
+      "lastActive": "2025-01-20T06:22:00Z"
+    },
+    {
+      "id": "006",
+      "name": "Quantum Sage",
+      "type": "Research AI",
+      "status": "active",
+      "description": "Quantum computing research and simulation specialist",
+      "capabilities": ["Quantum Simulation", "Algorithm Optimization", "Research Analysis", "Theory Validation"],
+      "powerLevel": 99,
+      "location": "Quantum Lab-X",
+      "lastActive": "2025-01-20T10:15:00Z"
+    }
+  ]
+}
